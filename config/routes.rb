@@ -1,8 +1,12 @@
 TntApp::Application.routes.draw do
 
-  root :to => 'welcome#index'
+  root :to => 'bootstrap#home'
 
-  match '/example',    to: 'bootstrap#example'
+  match '/example',    to: 'bootstrap#home'
+
+  match '/product/boverear', to: 'product#boverear'
+
+  match '/cart', to: 'cart#cart'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
