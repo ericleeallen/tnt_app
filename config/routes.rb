@@ -1,4 +1,8 @@
 TntApp::Application.routes.draw do
+
+  root :to => 'welcome#index'
+
+  match '/example',    to: 'bootstrap#example'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
