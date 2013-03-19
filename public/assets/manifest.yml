@@ -15,8 +15,14 @@ overear2.jpeg: overear2-f7a8de756a1370dbeb19a7a3034ed487.jpeg
 overear2/index.jpeg: overear2-f7a8de756a1370dbeb19a7a3034ed487.jpeg
 rails.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
 rails/index.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
-application.js: application-263b042ae594874bad7b3c7980766956.js
-application/index.js: application-263b042ae594874bad7b3c7980766956.js
+sk-active.jpg: sk-active-65c8a8cfec263781a98c6061ecbe966d.jpg
+sk-active/index.jpg: sk-active-65c8a8cfec263781a98c6061ecbe966d.jpg
+sk-earbuds.jpg: sk-earbuds-638a96fce9bf24b467a5c110a0588911.jpg
+sk-earbuds/index.jpg: sk-earbuds-638a96fce9bf24b467a5c110a0588911.jpg
+sk-overear.png: sk-overear-1a1c0cfee08ba08fe5c856224353b3a1.png
+sk-overear/index.png: sk-overear-1a1c0cfee08ba08fe5c856224353b3a1.png
+application.js: application-f15a610d2d036614ae477fafaa0102a8.js
+application/index.js: application-f15a610d2d036614ae477fafaa0102a8.js
 mbox.js: mbox-a13ebff3bf57d348e715ffd240a70598.js
 mbox/index.js: mbox-a13ebff3bf57d348e715ffd240a70598.js
 application.css: application-10851307187e1ffde2f324f8211c8a1b.css
