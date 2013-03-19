@@ -4,9 +4,14 @@ TntApp::Application.routes.draw do
 
   match '/example',    to: 'bootstrap#home'
 
-  match '/product/boverear', to: 'product#boverear'
+  match '/product/boverear',  to: 'product#boverear'
+  match '/product/bearbuds',  to: 'product#bearbuds'
+  match '/product/bactive',   to: 'product#bactive'
 
   match '/cart', to: 'cart#cart'
+
+  match '/confirm', to: 'confirm#confirm'
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
