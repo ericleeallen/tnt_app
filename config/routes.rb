@@ -1,5 +1,10 @@
 TntApp::Application.routes.draw do
 
+  get "store/index"
+
+  resources :products
+
+
   root :to => 'bootstrap#home'
 
   match '/example',    to: 'bootstrap#home'
