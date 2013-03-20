@@ -2,8 +2,7 @@ TntApp::Application.routes.draw do
 
   resources :line_items
 
-
-  resources :carts
+  resources :cart
 
 
   get "store/index"
