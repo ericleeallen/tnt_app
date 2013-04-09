@@ -1,3 +1,13 @@
+<style type="text/css">
+	#notice {
+		margin: 20px auto;
+	}
+</style>
+
+<% if notice %>
+<p id="notice"><%= flash[:notice] %></p> 
+<% end %>
+
 <div class="mboxDefault">
         <div class="hero-unit">
           <h1>Welcome to Ear City!</h1>
@@ -9,8 +19,8 @@
       </script>
    
 
-<div class="container">
-	<div class="row">
+
+	<div class="row" style="padding: 10px">
 		<% @products.each do |product| %>
 			<div class="span4">
 				<%= image_tag(product.image_url) %>
@@ -18,8 +28,10 @@
 				<%= sanitize(product.description) %>
 				<div class="price_line">
 					<span class="price"><%= number_to_currency(product.price) %></span>
+					<%= button_to 'Add to Cart', line_items_path(:product_id => product), :remote => true %>
 				</div>
 			</div>
 		<% end %>
 	</div>
-</div>
+
+

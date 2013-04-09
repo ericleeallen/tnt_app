@@ -2,7 +2,7 @@ TntApp::Application.routes.draw do
 
   resources :line_items
 
-  resources :cart
+  resources :carts
 
 
   get "store/index"
@@ -10,15 +10,15 @@ TntApp::Application.routes.draw do
   resources :products
 
 
-  root :to => 'bootstrap#home'
+  root :to => 'store#index'
 
   match '/example',    to: 'bootstrap#home'
+
+  match '/purchase',   to: 'carts#purchase'
 
   match '/product/boverear',  to: 'product#boverear'
   match '/product/bearbuds',  to: 'product#bearbuds'
   match '/product/bactive',   to: 'product#bactive'
-
-  match '/cart', to: 'cart#cart'
 
   match '/confirm', to: 'confirm#confirm'
   
